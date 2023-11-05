@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "Ramraj Sekar",
-  title: "Hi all, I'm Ramraj",
+  title: "Hello, I'm Ramraj",
   subTitle: emoji(
-    "A passionate Software Tester 🚀 and an Computer Vision Developer having experience with both Functional and Regression Automation testing of web applications using Provar,Selenium Python,Robot Framework,TOSCA"
+    "A passionate Software Tester 🚀 with good experience in both Functional and Regression Automation testing of Web applications and Salesforce using Provar,Selenium Python,Robot Framework,TOSCA, Playwright"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1WQJYX1cYO26X25XakmJaRhaGrmfYokfN/view?usp=sharing",
@@ -48,8 +48,9 @@ const skillsSection = {
     emoji("⚡ Develop and maintain your automation test cases."),
     emoji("⚡ Execute test cases."),
     emoji("⚡ Report defects and retest the same."),
+    emoji("⚡ Review Regression Test Results and Sign off release."),
     emoji(
-      "⚡ Integration of CI/CD pipeline or Continuous Testing with Jenkins/Teamcity."
+      "⚡ Integration of Automated Test Case With Continuous Testing Tools like Jenkins/Teamcity."
     )],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -57,12 +58,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Salesforce",
+      fontAwesomeClassname: "fa-brands fa-salesforce"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fa-brands fa-jenkins"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "AWS",
+      fontAwesomeClassname: "fa-brands fa-aws"
     },
     {
       skillName: "Python",
@@ -87,11 +96,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     }
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -143,7 +152,7 @@ const techStack = {
     },
     {
       Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Selenium",
@@ -156,11 +165,15 @@ const techStack = {
     ,
     {
       Stack: "Salesforce Testing",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
-      Stack: "Opencv",
-      progressPercentage: "20%"
+      Stack: "Robotframework",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Playwright",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -172,7 +185,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Associate",
+      role: "Project Manager",
       company: "Cognizant",
       companylogo: require("./assets/images/cts.png").default,
       date: "September 2019 – Present",
@@ -180,8 +193,11 @@ const workExperiences = {
         "Develop Automation Framework and Scripts.",
       descBullets: [
         "Analyze business requirement specification, involved in Scrum meetings, and provided estimations",
-        "Developing or modifying with Selenium Python (Robot framework) And Provar",
-        "Submitting Pull Request to review the code and merging it to master branch",
+        "Develop and present automation proof of concepts",
+        "Developing or modifying automation test cases with Selenium Python (Robot framework) And Provar",
+        "Submit Pull Request to review the code and merging it to master branch",
+        "Allocate resources, including budget and tools, to support QA activities.",
+        "Promote a culture of continuous learning and skill development within the QA team",
         "Reporting bugs and retesting. Reporting the daily status of automation testing to Client/Manager",
         "Successfully developed API automation script to generate test data, which speedup the manual team test execution efforts and completed testing in 10 days that was appreciated by the client."
       ]
