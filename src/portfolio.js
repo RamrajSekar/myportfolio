@@ -43,9 +43,10 @@ const skillsSection = {
     emoji("⚡ Analyse the Business Requirement."),
     emoji("⚡ Prepare Test Plan And Test Stratergy Document."),
     emoji("⚡ Involved In POC and Automation Tool analysis."),
-    emoji("⚡ Perform Security Assesment of your web application."),
+    emoji("⚡ Allocate resources, including budget and tools, to support QA activities."),
     emoji("⚡ Develop reusable test automation framework for your web applications and API."),
     emoji("⚡ Develop and maintain your automation test cases."),
+    emoji("⚡ Involve in automation code reviews and sign-off."),
     emoji("⚡ Execute test cases."),
     emoji("⚡ Report defects and retest the same."),
     emoji("⚡ Review Regression Test Results and Sign off release."),
@@ -59,11 +60,11 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Salesforce",
-      fontAwesomeClassname: "fa-brands fa-salesforce"
+      fontAwesomeClassname: "fab fa-salesforce"
     },
     {
       skillName: "Jenkins",
-      fontAwesomeClassname: "fa-brands fa-jenkins"
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "html-5",
@@ -71,7 +72,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fa-brands fa-aws"
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Python",
@@ -85,14 +86,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -399,7 +400,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(+91) 9962530086",
+  number: "(+1) 7828825845",
+  whatsapp: "(+91) 9962530086",
   email_address: "sekar.ramraj@gmail.com"
 };
 
